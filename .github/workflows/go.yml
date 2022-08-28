@@ -1,6 +1,9 @@
 name: Go
 on:
-  workflow_dispatch:
+  push:
+    branches: [ Aula_01 ]
+  pull_request:
+    branches: [ Aula_01 ]
 
 jobs:
 
