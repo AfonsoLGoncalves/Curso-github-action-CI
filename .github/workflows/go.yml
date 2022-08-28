@@ -1,10 +1,6 @@
 name: Go
-
 on:
-  push:
-    branches: [ "Aula_04" ]
-  pull_request:
-    branches: [ "Aula_04" ]
+  workflow_dispatch:
 
 jobs:
 
